@@ -1,4 +1,4 @@
-const formElement = document.querySelector('form');
+const formElement=document.querySelector('form');
 // console.log(form)
 const emailElement = document.querySelector('#username');
 // console.log(emailElement)
@@ -31,5 +31,3 @@ function submitForm(evt){
 
 // >> declarative programming
 formElement.addEventListener('submit', submitForm);
-
-
